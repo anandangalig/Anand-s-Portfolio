@@ -12,6 +12,7 @@ stylesheets[all][] = css/form.css
 stylesheets[all][] = css/font.css
 stylesheets[all][] = css/panel.css
 stylesheets[all][] = css/view.css
+stylesheets[all][] = css/mystyles.css
 
 regions[header] = Header
 regions[slideshow] = Slideshow
@@ -28,4 +29,3 @@ version = "7.x-2.x-dev"
 core = "7.x"
 project = "andromeda"
 datestamp = "1380553838"
-

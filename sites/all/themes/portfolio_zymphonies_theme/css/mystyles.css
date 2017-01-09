@@ -1,0 +1,14 @@
+#logo {
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+
+.footer_credit {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+}

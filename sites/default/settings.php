@@ -245,13 +245,13 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'portfolio_aaa',
       'username' => 'portfolio_aaa',
-      'password' => 'Level2016hopper',
+      'password' => 'portfolio_aaa',
       'host' => '127.0.0.1',
       'port' => '8889',
       'driver' => 'mysql',
