@@ -358,12 +358,12 @@ header.siteheader{
 }
 
 h1#site-title{
-  font-size: 38px;
+  font-size: 48px;
   margin: 20px 0;
 }
 
 h1#site-title a{
-  font-size: 42px;
+  font-size: 48px;
   margin: 10px 0;
   display: block;
   color: #fff;
@@ -1378,7 +1378,7 @@ article,
 }
 
 .not-front h1#site-title a{
-  font-size: 22px;
+  font-size: 48px;
   margin: 0;
 }
 

@@ -29,7 +29,7 @@
 
   header.siteheader{ box-shadow: none; padding: 80px 0; }
 
-  h1#site-title a { font-size: 28px; margin: 8px 0; }
+  h1#site-title a { font-size: 48px; margin: 8px 0; }
 
   #site-description { font-size: 16px; margin: 0px 0; }
 
@@ -54,8 +54,8 @@
 
   #copyright > div{ margin: 10px 0; }
 
-  article, .not-front .node-page, 
-  .not-front.node-type-blog .node-blog, 
+  article, .not-front .node-page,
+  .not-front.node-type-blog .node-blog,
   .not-front.node-type-article .node-article{ padding: 10px; }
 
   .award-list{ width: 100%; }

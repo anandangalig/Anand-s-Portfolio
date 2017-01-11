@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <div class="menu-wrap">
+  <!-- <div class="menu-wrap">
     <div class="full-wrap clearfix">
       <nav id="main-menu" role="navigation">
         <a class="nav-toggle" href="#">Navigation</a>
@@ -86,17 +86,16 @@
         <div class="clear"></div>
       </nav>
     </div>
-  </div>
+  </div> -->
 
   <header class="siteheader">
 
     <div class="zymphonies bounce">
 
-
       <h1 id="site-title">
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-        <div id="site-description"><?php print $site_slogan; ?></div>
-      </h1>
+      <div id="site-description"><?php print $site_slogan; ?></div>
+    </h1>
       <?php if ($logo): ?>
         <div id="logo_div">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -253,7 +252,7 @@
       <div id="copyright">
 
         <div class="copyright">
-          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
+          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?> | <?php print $site_name; ?>
         </div>
 
       </div>

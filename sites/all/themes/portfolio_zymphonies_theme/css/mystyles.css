@@ -12,3 +12,7 @@
   height: 50px;
   justify-content: center;
 }
+
+#blockquote {
+  font-size: 2.5em;
+}
