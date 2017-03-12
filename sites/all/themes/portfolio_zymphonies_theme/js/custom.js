@@ -1,4 +1,4 @@
-/* --------------------------------------------- 
+/* ---------------------------------------------
 
 * Filename:     custom.js
 * Version:      1.0.0 (2015-04-03)
@@ -11,18 +11,18 @@
 -----------------------------------------------*/
 
 jQuery(document).ready(function($) {
-  
+
   $('.social-icons li').each(function(){
     var url = $(this).find('a').attr('href');
     if(url == ''){
      $(this).hide();
     }
   });
-  
+
   // Front page blocks
 
   var i = 1;
-  
+
   $('.front-blocks .region').each(function() {
      $(this).addClass('frontuniqueblocks'+i++);
   });
@@ -58,9 +58,9 @@ jQuery(document).ready(function($) {
 // Animation
 
 wow = new WOW({
-  boxClass: 'zymphonies',      
+  boxClass: 'zymphonies',
   animateClass: 'animated',
-  offset: 0 
+  offset: 0
 });
 
 wow.init();
